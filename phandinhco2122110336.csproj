@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7887ADF-D610-4E81-B32C-6EE2D7AC3112}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>phandinhco2122110336</RootNamespace>
+    <AssemblyName>phandinhco2122110336</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bai2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai2.Designer.cs">
+      <DependentUpon>bai2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai23.Designer.cs">
+      <DependentUpon>bai23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai24.Designer.cs">
+      <DependentUpon>bai24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai25.Designer.cs">
+      <DependentUpon>bai25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai26.Designer.cs">
+      <DependentUpon>bai26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai27.Designer.cs">
+      <DependentUpon>bai27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai28.Designer.cs">
+      <DependentUpon>bai28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai3.Designer.cs">
+      <DependentUpon>bai3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai4.Designer.cs">
+      <DependentUpon>bai4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai5.Designer.cs">
+      <DependentUpon>bai5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai10.Designer.cs">
+      <DependentUpon>bai10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai11.Designer.cs">
+      <DependentUpon>bai11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai1.Designer.cs">
+      <DependentUpon>bai1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai6.Designer.cs">
+      <DependentUpon>bai6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai7.Designer.cs">
+      <DependentUpon>bai7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai8.Designer.cs">
+      <DependentUpon>bai8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bai9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bai9.Designer.cs">
+      <DependentUpon>bai9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoWindows.Designer.cs">
+      <DependentUpon>InfoWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StreamWrite.cs" />
+    <EmbeddedResource Include="bai10.resx">
+      <DependentUpon>bai10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai11.resx">
+      <DependentUpon>bai11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai1.resx">
+      <DependentUpon>bai1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai2.resx">
+      <DependentUpon>bai2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai23.resx">
+      <DependentUpon>bai23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai24.resx">
+      <DependentUpon>bai24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai25.resx">
+      <DependentUpon>bai25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai26.resx">
+      <DependentUpon>bai26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai27.resx">
+      <DependentUpon>bai27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai28.resx">
+      <DependentUpon>bai28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai3.resx">
+      <DependentUpon>bai3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai4.resx">
+      <DependentUpon>bai4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai8.resx">
+      <DependentUpon>bai8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai5.resx">
+      <DependentUpon>bai5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai6.resx">
+      <DependentUpon>bai6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai7.resx">
+      <DependentUpon>bai7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bai9.resx">
+      <DependentUpon>bai9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoWindows.resx">
+      <DependentUpon>InfoWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
